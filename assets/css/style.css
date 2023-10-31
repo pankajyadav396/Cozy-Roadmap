@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Cherry+Bomb+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+.custom-container {
+    max-width: 1143px !important;
+    margin: 0 auto;
+}
+
+.bg-greenish {
+    background-color: #9ACC44;
+}
+
+.roadmap {
+    color: #FFF;
+    text-shadow: 1px 4px 0px #5BA72B;
+    font-family: Cherry Bomb One;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 103.164%;
+}
+
+.sec-p {
+    color: #FFF;
+    font-family: Balsamiq Sans;
+    font-size: 18px;
+    max-width: 655px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card-1 {
+    cursor: pointer;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.cur-point {
+    cursor: pointer;
+}
+
+.card-1:hover {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: #5BA72B;
+}
+
+.card-1:hover svg path {
+    fill: #FFF !important;
+    opacity: 100%;
+}
+
+.card-1 svg path {
+    transition: all.3s;
+}
+
+.card-h {
+    color: #FFF;
+    font-family: Balsamiq Sans;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-no {
+    color: #FFF;
+    font-family: Cherry Bomb One;
+    font-size: 69.762px;
+    opacity: 0.3;
+    font-weight: 400;
+}
+
+.card-p2 {
+    color: #FFF;
+    font-family: Balsamiq Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.svg-main {
+    align-self: self-end;
+    margin-bottom: 30px;
+}
+
+.box-modal {
+    padding: 75px 65px !important;
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: #5BA72B;
+}
+
+.phase-1 {
+    color: #FFF;
+    font-family: Balsamiq Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-white-1 {
+    color: white;
+    opacity: 60%;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.mw-665 {
+    max-width: 655px;
+}
+.hide{
+    display: none;
+}
+.modal-sec1 {
+    display: none;
+}
+
+.modal-sec4 {
+    display: none;
+}
+
+.modal-sec3 {
+    display: none;
+}
+
+.modal-sec2 {
+    display: none;
+}
+
+@media (max-width:800px) {
+    .flex_column {
+        flex-direction: column;
+    }
+}
